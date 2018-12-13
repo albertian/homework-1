@@ -1,0 +1,26 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "Two training tasks solutions with test coverage.",
+  "scripts": {
+      "test": "jest"
+  },
+  "babel": {
+      "presets": [
+          "env"
+      ]
+  },
+  "jest": {
+      "transform": {
+          "^.+\\.js$": "babel-jest"
+      }
+  },
+  "author": "Albert Aukhadiev",
+  "license": "ISC",
+  "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-es2015": "^6.0.0",
+      "jest": "^23.6.0"
+  }
+}
